@@ -25,16 +25,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![screen-shot](./design/desktop-preview.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MIU-cz/fem-product-preview-card)
-- Live Site URL: [Add live site URL here](https://miu-cz.github.io/fem-product-preview-card/)
+- Solution URL: [github](https://github.com/MIU-cz/fem-product-preview-card)
+- Live Site URL: [previw](https://miu-cz.github.io/fem-product-preview-card/)
 
 ## My process
 
-1.
+1. изучение макета
+2. определение элементов /стилей /размеров ..
 
 ### Built with
 
@@ -48,23 +49,23 @@ Users should be able to:
 
 ### Continued development
 
-3. JavaJavascript
-4. BEM
-5. Scss | Saas
-6. BootStrap
-7. jQuery
-8. Vue
-9. React
-10. Next
-11. TypeScript
-12. Node
-13. Angular
-14. Php
-15. QA testing
-16. Java
-17. Mobile Dev
-18. Pyton
-19. Jungo
+1. JavaJavascript
+2. BEM
+3. Scss | Saas
+4. BootStrap
+5. jQuery
+6. Vue
+7. React
+8. Next
+9. TypeScript
+10. Node
+11. Angular
+12. Php
+13. QA testing
+14. Java
+15. Mobile Dev
+16. Pyton
+17. Jungo
 
 ## Author
 
@@ -75,9 +76,11 @@ Users should be able to:
 
 ## Acknowledgments
 
-<div style="float:right;margin:0 10px 0 0">
+<!-- <div style="float:right;margin:0 10px 0 0">
     <img src="./images/autor.png" alt="Autor">
-</div>
+</div> -->
+![Autor](./images/autor.png){width=50px}
+
 1. I thank myself for believing in myself;
 2. I thank myself for my hard work;
 3. I thank myself for not resting on the weekend;
