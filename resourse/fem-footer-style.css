@@ -1,0 +1,13 @@
+/* ---footer--- */
+.attribution {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

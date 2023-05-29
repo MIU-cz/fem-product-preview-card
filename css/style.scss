@@ -1,0 +1,158 @@
+// ## Typography
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+$Montserrat: "Montserrat";
+$Fraunces: "Fraunces";
+$w500: 500;
+$w700: 700;
+
+// ### Primary Colors
+$Dark-cyan: hsl(158, 36%, 37%);
+$Cream: hsl(30, 38%, 92%);
+
+// ### Neutral
+$Very-dark-blue: hsl(212, 21%, 14%);
+$Dark-grayish-blue: hsl(228, 12%, 48%);
+$White: hsl(0, 0%, 100%);
+
+// ### Body
+$Paragraph: 14px;
+$Title: 11px;
+$Header: 36px;
+$cardBody-w: 600px;
+$cardBody-h: 450px;
+$content-margin: 25px;
+$content-padding: 30px;
+
+// ### Styles
+body {
+	font-family: $Montserrat;
+	font-weight: $w500;
+	background-color: $Cream;
+}
+
+.flex {
+	display: flex;
+}
+
+.justify {
+	justify-content: center;
+	align-items: center;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+// ### contentStyles
+.conteiner {
+	width: 100%;
+	height: 100vh;
+}
+
+.card-body {
+	width: $cardBody-w;
+	height: $cardBody-h;
+	border-radius: 10px;
+	background-color: $White;
+	overflow: hidden;
+}
+
+.card-image {
+	width: $cardBody-w/2;
+	height: $cardBody-h;
+	background: url("../images/image-product-desktop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-content {
+	width: $cardBody-w/2;
+	padding: $content-padding;
+}
+
+.content-title {
+	text-transform: uppercase;
+	font-size: $Title;
+	letter-spacing: 0.5em;
+	color: $Dark-grayish-blue;
+	margin-bottom: $content-margin;
+}
+
+.content-header {
+	font-family: $Fraunces;
+	font-weight: $w700;
+	font-size: $Header;
+	margin-bottom: $content-margin;
+}
+
+.content-description {
+	color: $Dark-grayish-blue;
+	line-height: 1.5em;
+	margin-bottom: $content-margin;
+}
+
+.content-price {
+	margin-bottom: $content-margin;
+}
+
+.price-new {
+	font-family: $Fraunces;
+	font-weight: $w700;
+	font-size: $Header - 5;
+	color: $Dark-cyan;
+	margin-right: $content-margin - 10;
+}
+
+.price-old {
+	vertical-align: super;
+	text-decoration: line-through;
+	color: $Dark-grayish-blue;
+	font-size: $Title + 3;
+}
+
+.addCart-btn {
+	width: 100%;
+	height: 50px;
+	color: $White;
+	font-weight: $w700;
+	background-color: $Dark-cyan;
+	border-radius: 10px;
+
+	&:before {
+		content: "";
+		display: inline-block;
+		background-image: url("../images/icon-cart.svg");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-right: 10px;
+		width: 15px;
+		height: 16px;
+	}
+
+	&:hover {
+		background-color: $Very-dark-blue;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.nowrap {
+		flex-wrap: wrap;
+	}
+
+	.card-body {
+		width: 100%;
+		height: auto;
+		margin: auto 20px auto 20px;
+	}
+
+	.card-image,
+	.card-content {
+		width: 100%;
+	}
+
+	// .content-price {
+	// 	text-align: center;
+	// }
+}

@@ -30,12 +30,16 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/MIU-cz/fem-product-preview-card)
-- Live Site URL: [previw](https://miu-cz.github.io/fem-product-preview-card/)
+- Live Site URL: [preview](https://miu-cz.github.io/fem-product-preview-card/)
 
 ## My process
 
 1. изучение макета
 2. определение элементов /стилей /размеров ..
+3. создание структуры БЕМ
+4. оформление стилей
+5. добавить футер
+6. запушить на гит
 
 ### Built with
 
