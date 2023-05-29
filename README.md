@@ -76,10 +76,9 @@ Users should be able to:
 
 ## Acknowledgments
 
-<!-- <div style="float:right;margin:0 10px 0 0">
-    <img src="./images/autor.png" alt="Autor" width="50px">
-</div> -->
-![Autor](./images/autor.png =100x100)
+<div style="float:right;margin:0 10px 0 0">
+    <img src="./images/autor.png" alt="Autor" width="100px">
+</div>
 
 1. I thank myself for believing in myself;
 2. I thank myself for my hard work;
