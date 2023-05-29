@@ -79,8 +79,7 @@ Users should be able to:
 <div style="float:right;margin:0 10px 0 0">
     <img src="./images/autor.png" alt="Autor" width="50px">
 </div>
-<!-- ![Autor](./images/autor.png)
-{width=50px} -->
+<!-- ![Autor](./images/autor.png){width=50px} -->
 
 1. I thank myself for believing in myself;
 2. I thank myself for my hard work;
