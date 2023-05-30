@@ -21,7 +21,13 @@
     <div class="card-body flex nowrap">
 
       <!-- card image -->
-      <div class="card-image"></div>
+      <div class="card-image">
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/image-product-desktop.jpg">
+          <source media="(min-width: 0px)" srcset="images/image-product-mobile.jpg">
+          <img src="images/image-product-desktop.jpg" alt="product image">
+        </picture>
+      </div>
 
       <!-- card content -->
       <div class="card-content">
